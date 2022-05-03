@@ -1,0 +1,15 @@
+[user]
+name = MohamadKh75
+email = khajavi.contact@gmail.com
+
+[include]
+path = ~/.gitconfigs/aliases.gitconfig
+
+[includeIf "gitdir/i:projects/x/"]
+path = ~/.gitconfigs/x.gitconfig
+
+[init]
+defaultBranch = main
+
+[push]
+autoSetupRemote = true
